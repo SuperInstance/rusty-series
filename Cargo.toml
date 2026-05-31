@@ -1,0 +1,12 @@
+[package]
+name = "lau-time-series"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-time-series"
+description = "Time series analysis library — forecasting, decomposition, and anomaly detection"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = "0.33"
+rand = "0.8"
