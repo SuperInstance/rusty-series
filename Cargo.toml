@@ -1,10 +1,10 @@
 [package]
-name = "lau-time-series"
+name = "rusty-series"
 version = "0.1.0"
 edition = "2021"
-license = "MIT"
-repository = "https://github.com/SuperInstance/lau-time-series"
-description = "Time series analysis library — forecasting, decomposition, and anomaly detection"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/SuperInstance/rusty-series"
+description = "Comprehensive time-series analysis in Rust — decomposition, ARIMA, anomaly detection, spectral analysis"
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }

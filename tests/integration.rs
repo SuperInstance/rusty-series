@@ -1,14 +1,14 @@
 #[cfg(test)]
 mod tests {
-    use lau_time_series::*;
-    use lau_time_series::decomposition::*;
-    use lau_time_series::acf::*;
-    use lau_time_series::arima::*;
-    use lau_time_series::smoothing::*;
-    use lau_time_series::changepoint::*;
-    use lau_time_series::anomaly::*;
-    use lau_time_series::spectral::*;
-    use lau_time_series::telemetry::*;
+    use rusty_series::*;
+    use rusty_series::decomposition::*;
+    use rusty_series::acf::*;
+    use rusty_series::arima::*;
+    use rusty_series::smoothing::*;
+    use rusty_series::changepoint::*;
+    use rusty_series::anomaly::*;
+    use rusty_series::spectral::*;
+    use rusty_series::telemetry::*;
 
     // ─── TimeSeries Basics ───
 

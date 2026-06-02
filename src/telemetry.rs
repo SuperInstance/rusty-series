@@ -1,4 +1,4 @@
-//! Agent telemetry analysis: monitoring agent behavior over time.
+//! Telemetry analysis: monitoring system metrics over time.
 
 use crate::series::TimeSeries;
 use crate::decomposition;
@@ -7,7 +7,7 @@ use crate::changepoint;
 use crate::smoothing;
 use crate::spectral;
 
-/// Telemetry metric types for agent monitoring.
+/// Telemetry metric types for system monitoring.
 #[derive(Debug, Clone, PartialEq)]
 pub enum MetricKind {
     ResponseTime,
